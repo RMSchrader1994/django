@@ -46,3 +46,5 @@ def toggle_status(request, id):
     item.gone = not item.gone
     item.save()
     return redirect("todo_index")
+    
+    
